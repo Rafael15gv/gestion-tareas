@@ -16,14 +16,18 @@
     <link rel="stylesheet" href="style.css" />
     <title>Gestion Tareas</title>
   </head>
-  <body class="centrado">
-    <div class="contenedor centrado">
+  <body>
+    <div id="contenedor">
       <h1>Control de Tareas</h1>
-      <div>
-        <input type="text" name="" id="nueva-tarea" />
+      <div id="entrada-tarea">
+        <input
+          type="text"
+          id="nueva-tarea-txt"
+          placeholder="Escriba una nueva tarea"
+        />
         <button type="button">Summit</button>
       </div>
-      <div class="box-tareas">
+      <div id="box-tareas">
         <!-- listado de tareas -->
       </div>
     </div>
